@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41B097A71AB8A14700F723E6 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B097A61AB8A14700F723E6 /* Deck.swift */; };
+		41B097A91AB8DF5A00F723E6 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B097A81AB8DF5A00F723E6 /* Hand.swift */; };
+		41B097AB1AB8DF6900F723E6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B097AA1AB8DF6900F723E6 /* Player.swift */; };
+		41B097AD1AB8E0EE00F723E6 /* HandSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B097AC1AB8E0EE00F723E6 /* HandSprite.swift */; };
+		41BF97ED1ABB356A00C5BB72 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF97EC1ABB356A00C5BB72 /* Turn.swift */; };
+		41BF97EF1ABB366800C5BB72 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF97EE1ABB366800C5BB72 /* Game.swift */; };
 		41DA50231AAFB42100A6954B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA50221AAFB42100A6954B /* AppDelegate.swift */; };
 		41DA50251AAFB42100A6954B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41DA50241AAFB42100A6954B /* GameScene.sks */; };
 		41DA50271AAFB42100A6954B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA50261AAFB42100A6954B /* GameScene.swift */; };
@@ -15,6 +21,8 @@
 		41DA502E1AAFB42100A6954B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DA502D1AAFB42100A6954B /* Images.xcassets */; };
 		41DA50311AAFB42100A6954B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41DA502F1AAFB42100A6954B /* LaunchScreen.xib */; };
 		41DA503D1AAFB42100A6954B /* CardSpriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA503C1AAFB42100A6954B /* CardSpriteTests.swift */; };
+		41DA50471AAFB44900A6954B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DA50461AAFB44900A6954B /* Card.swift */; };
+		41E1EC381AC088B700905263 /* CallCardPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1EC371AC088B700905263 /* CallCardPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41B097A61AB8A14700F723E6 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		41B097A81AB8DF5A00F723E6 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		41B097AA1AB8DF6900F723E6 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		41B097AC1AB8E0EE00F723E6 /* HandSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandSprite.swift; sourceTree = "<group>"; };
+		41BF97EC1ABB356A00C5BB72 /* Turn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		41BF97EE1ABB366800C5BB72 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		41DA501D1AAFB42100A6954B /* CardSprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DA50211AAFB42100A6954B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DA50221AAFB42100A6954B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +54,8 @@
 		41DA50361AAFB42100A6954B /* CardSpriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSpriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DA503B1AAFB42100A6954B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DA503C1AAFB42100A6954B /* CardSpriteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSpriteTests.swift; sourceTree = "<group>"; };
+		41DA50461AAFB44900A6954B /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		41E1EC371AC088B700905263 /* CallCardPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallCardPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +99,20 @@
 			children = (
 				41DA50221AAFB42100A6954B /* AppDelegate.swift */,
 				41DA50241AAFB42100A6954B /* GameScene.sks */,
+				41BF97EC1ABB356A00C5BB72 /* Turn.swift */,
+				41BF97EE1ABB366800C5BB72 /* Game.swift */,
 				41DA50261AAFB42100A6954B /* GameScene.swift */,
 				41DA50281AAFB42100A6954B /* GameViewController.swift */,
 				41DA502A1AAFB42100A6954B /* Main.storyboard */,
 				41DA502D1AAFB42100A6954B /* Images.xcassets */,
 				41DA502F1AAFB42100A6954B /* LaunchScreen.xib */,
 				41DA50201AAFB42100A6954B /* Supporting Files */,
+				41DA50461AAFB44900A6954B /* Card.swift */,
+				41B097A81AB8DF5A00F723E6 /* Hand.swift */,
+				41E1EC371AC088B700905263 /* CallCardPicker.swift */,
+				41B097AC1AB8E0EE00F723E6 /* HandSprite.swift */,
+				41B097AA1AB8DF6900F723E6 /* Player.swift */,
+				41B097A61AB8A14700F723E6 /* Deck.swift */,
 			);
 			path = CardSprite;
 			sourceTree = "<group>";
@@ -220,8 +244,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				41DA50271AAFB42100A6954B /* GameScene.swift in Sources */,
+				41BF97EF1ABB366800C5BB72 /* Game.swift in Sources */,
 				41DA50291AAFB42100A6954B /* GameViewController.swift in Sources */,
+				41B097A91AB8DF5A00F723E6 /* Hand.swift in Sources */,
+				41B097A71AB8A14700F723E6 /* Deck.swift in Sources */,
+				41E1EC381AC088B700905263 /* CallCardPicker.swift in Sources */,
+				41BF97ED1ABB356A00C5BB72 /* Turn.swift in Sources */,
+				41B097AB1AB8DF6900F723E6 /* Player.swift in Sources */,
+				41B097AD1AB8E0EE00F723E6 /* HandSprite.swift in Sources */,
 				41DA50231AAFB42100A6954B /* AppDelegate.swift in Sources */,
+				41DA50471AAFB44900A6954B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +447,7 @@
 				41DA50421AAFB42100A6954B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41DA50431AAFB42100A6954B /* Build configuration list for PBXNativeTarget "CardSpriteTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +456,7 @@
 				41DA50451AAFB42100A6954B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
