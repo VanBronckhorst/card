@@ -38,6 +38,6 @@ class CallCardPicker : SKSpriteNode {
     }
     
     required init(coder aDecoder: NSCoder) {
-        assertionFailure("Not Supported")
+        assertionFailure("Not Supported, Stronzo")
     }
 }
